@@ -478,7 +478,7 @@ exports.startup = function() {
 
 })();</pre>
 </div>
-<div created="20210905160614585" modified="20210906222902205" title="$:/config/AutoSave">
+<div created="20210905160614585" modified="20210906223818776" title="$:/config/AutoSave">
 <pre>no</pre>
 </div>
 <div created="20210611221838525" modified="20210612122918808" title="$:/config/DefaultSidebarTab">
@@ -10522,11 +10522,10 @@ inputActions=&lt;&lt;rename-color&gt;&gt;
 &lt;/$list&gt;
 &lt;/$list&gt;</pre>
 </div>
-<div created="20210826080516584" modified="20210827231618510" tags="$:/CustomHomePage/Config/Shortcut/Default" title="$:/CustomHomePage/Config/Shortcut/Default">
+<div created="20210826080516584" modified="20210906223658507" tags="$:/CustomHomePage/Config/Shortcut/Default" title="$:/CustomHomePage/Config/Shortcut/Default">
 <pre>&lt;$set name=ff-palette value={{{$:/CustomHomePage/Config/Shortcut/Default/Palette}}}&gt;
-&lt;$set name=q value=&lt;&lt;qualify&gt;&gt; &gt;
 &lt;$vars 
-x={{{ [&lt;q&gt;splitregexp[-]join[]] }}}
+x={{{ [&lt;qualify&gt;splitregexp[-]join[]] }}}
 y={{{ [&lt;ff-palette&gt;indexes[]count[]] }}}&gt;
 &lt;$set name=&quot;nth-color&quot; filter={{{ [&lt;x&gt;remainder&lt;y&gt;add[1]] }}}&gt;
 &lt;$set name=&quot;ff-color-name&quot; value={{{[&lt;ff-palette&gt;indexes[]nth&lt;nth-color&gt;]}}}&gt;
@@ -10557,10 +10556,9 @@ transform: rotate(-10deg) translate(-10%, 19%);
 &lt;/$set&gt;
 &lt;/$set&gt;
 &lt;/$vars&gt;
-&lt;/$set&gt;
 &lt;/$set&gt;</pre>
 </div>
-<div created="20210826145758993" modified="20210906222807871" source="[[These colors are from the new tab in firefox]]" tags="$:/CustomHomePage/Config/Shortcut/Default $:/CustomHomePage/PalettePreview PalettePreview" title="$:/CustomHomePage/Config/Shortcut/Default/Palette" type="application/x-tiddler-dictionary">
+<div created="20210826145758993" modified="20210906222936204" source="[[These colors are from the new tab in firefox]]" tags="$:/CustomHomePage/Config/Shortcut/Default $:/CustomHomePage/PalettePreview PalettePreview" title="$:/CustomHomePage/Config/Shortcut/Default/Palette" type="application/x-tiddler-dictionary">
 <pre>orange: rgb(255, 113, 57)
 purple: rgb(161, 114, 255)
 green: rgb(42, 195, 162)
@@ -11259,13 +11257,13 @@ $:/CustomHomePage/shortcuts-viewer</pre>
 <div status="complete" title="$:/Import">
 <pre>The following tiddlers were imported:
 
-# [[$:/plugins/sq/editor-autolist]]</pre>
+# [[$:/CustomHomePage/Config/Shortcut/Default]]</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
-<div created="20210905160621867" modified="20210906222850621" title="$:/language/ControlPanel/Saving/GitService/CommitMessage">
-<pre>WIP - fixed the palette preview {see [[$:/CustomHomePage/Config/Shortcut/Default/Palette]] )</pre>
+<div created="20210905160621867" modified="20210906223812107" title="$:/language/ControlPanel/Saving/GitService/CommitMessage">
+<pre>WIP - removed superfluous set widget in [[$:/CustomHomePage/Config/Shortcut/Default]]</pre>
 </div>
 <div created="20210611231023565" modified="20210827004539126" title="$:/palette">
 <pre>$:/palettes/Twilight</pre>
@@ -13206,7 +13204,7 @@ width:100%;
 <div created="20210611231116846" modified="20210827004541882" title="$:/state/ShowPaletteEditor">
 <pre>yes</pre>
 </div>
-<div created="20210611160323730" modified="20210906222204835" title="$:/state/sidebar">
+<div created="20210611160323730" modified="20210906223022363" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
 <div created="20210827183946006" modified="20210827183946006" title="$:/state/tab--103319216">
@@ -13245,7 +13243,7 @@ width:100%;
 <div created="20210612124334506" modified="20210905153613747" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/All</pre>
 </div>
-<div created="20210611141811499" modified="20210906222819500" title="$:/state/tab/sidebar--595412856">
+<div created="20210611141811499" modified="20210906223544084" title="$:/state/tab/sidebar--595412856">
 <pre>$:/SaveToGitHub/Settings</pre>
 </div>
 <div created="20210611135640424" modified="20210818203028398" title="$:/state/tabs/controlpanel/toolbars-1345989671">

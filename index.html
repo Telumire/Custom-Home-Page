@@ -425,6 +425,8 @@ Error message and password prompt
 
 <li>reddit</li>
 
+<li>task</li>
+
 <li>TW</li>
 
 <li>youtube</li>
@@ -476,7 +478,7 @@ exports.startup = function() {
 
 })();</pre>
 </div>
-<div created="20210905160614585" modified="20210905161749845" title="$:/config/AutoSave">
+<div created="20210905160614585" modified="20210906220021486" title="$:/config/AutoSave">
 <pre>no</pre>
 </div>
 <div created="20210611221838525" modified="20210612122918808" title="$:/config/DefaultSidebarTab">
@@ -10475,7 +10477,7 @@ background:&lt;&lt;color tiddler-background&gt;&gt;;
 background:&lt;&lt;color button-background&gt;&gt;;
 }</pre>
 </div>
-<div created="20210826225245417" modified="20210905150903174" tags="wip $:/CustomHomePage" task="doing" title="$:/CustomHomePage/Color palette editor">
+<div created="20210826225245417" modified="20210906111359590" tags="wip $:/CustomHomePage" title="$:/CustomHomePage/Color palette editor">
 <pre>\define rename-color()
 
 &lt;$vars temp={{{[&lt;nthColor&gt;addprefix[$:/temp/colorName/]]}}}&gt;
@@ -11262,8 +11264,8 @@ $:/CustomHomePage/shortcuts-viewer</pre>
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
-<div created="20210905160621867" modified="20210905161759678" title="$:/language/ControlPanel/Saving/GitService/CommitMessage">
-<pre>WIP - cleaning up the fields</pre>
+<div created="20210905160621867" modified="20210906215801425" title="$:/language/ControlPanel/Saving/GitService/CommitMessage">
+<pre>WIP - added a small explanation for the tiddler [[Calendar icon]]</pre>
 </div>
 <div created="20210611231023565" modified="20210827004539126" title="$:/palette">
 <pre>$:/palettes/Twilight</pre>
@@ -13074,7 +13076,7 @@ width:100%;
 <pre>-[tag[private]] -$:/HistoryList -[search:title[$:/state/folded]] -[search:title[$:/GitHub]] -[search:title[$:/SaveToGitHub/private]]
 </pre>
 </div>
-<div ask-commit="true" caption="Github" created="20210805131146320" modified="20210905152430771" tags="$:/SaveToGitHub $:/tags/SideBar" title="$:/SaveToGitHub/Settings">
+<div ask-commit="false" caption="Github" created="20210805131146320" modified="20210906215724544" tags="$:/SaveToGitHub $:/tags/SideBar" title="$:/SaveToGitHub/Settings">
 <pre>\define lingo-base() $:/language/ControlPanel/Saving/GitService/
 \define service-name() ~GitHub
 
@@ -13173,8 +13175,8 @@ width:100%;
 <div created="20210611135437568" modified="20210611135441232" title="$:/SiteTitle">
 <pre>Custom Home Page</pre>
 </div>
-<div created="20210611143743724" modified="20210905153625436" title="$:/state/advancedsearch/currentTab">
-<pre>$:/core/ui/AdvancedSearch/System</pre>
+<div created="20210611143743724" modified="20210906214058899" title="$:/state/advancedsearch/currentTab">
+<pre>$:/core/ui/AdvancedSearch/Filter</pre>
 </div>
 <div created="20210807213155713" modified="20210905153041058" title="$:/state/commander/log-tiddler">
 <pre>$:/temp/commander/logs/tid-11</pre>
@@ -13203,14 +13205,14 @@ width:100%;
 <div created="20210611231116846" modified="20210827004541882" title="$:/state/ShowPaletteEditor">
 <pre>yes</pre>
 </div>
-<div created="20210611160323730" modified="20210905153512445" title="$:/state/sidebar">
+<div created="20210611160323730" modified="20210906215849808" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
 <div created="20210827183946006" modified="20210827183946006" title="$:/state/tab--103319216">
 <pre>$:/plugins/kookma/commander/field/uicomp/remove-fields</pre>
 </div>
-<div created="20210611143743725" modified="20210905153625436" title="$:/state/tab--1498284803">
-<pre>$:/core/ui/AdvancedSearch/System</pre>
+<div created="20210611143743725" modified="20210906214058899" title="$:/state/tab--1498284803">
+<pre>$:/core/ui/AdvancedSearch/Filter</pre>
 </div>
 <div created="20210611135633954" modified="20210826080917256" title="$:/state/tab--1963855381">
 <pre>$:/core/ui/ControlPanel/Palette</pre>
@@ -13242,7 +13244,7 @@ width:100%;
 <div created="20210612124334506" modified="20210905153613747" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/All</pre>
 </div>
-<div created="20210611141811499" modified="20210905160354678" title="$:/state/tab/sidebar--595412856">
+<div created="20210611141811499" modified="20210906215702098" title="$:/state/tab/sidebar--595412856">
 <pre>$:/SaveToGitHub/Settings</pre>
 </div>
 <div created="20210611135640424" modified="20210818203028398" title="$:/state/tabs/controlpanel/toolbars-1345989671">
@@ -13733,7 +13735,7 @@ $text$
 <div created="20210611200641886" icon="Calendar icon" modified="20210905161739113" tags="shortcut $:/CustomHomePage/ui-element" title="calendar" url="https://calendar.google.com">
 <pre></pre>
 </div>
-<div created="20210826215441363" modified="20210826220153325" tags="" title="Calendar icon">
+<div created="20210826215441363" description="This icon display the current day thank to the google calendar favicon and the macro `&lt;&lt;now&gt;&gt;`" modified="20210906215654291" tags="" title="Calendar icon">
 <pre>&lt;img
 
 src=&lt;&lt;now DD format:&quot;https://calendar.google.com/googlecalendar/images/favicons_2020q4/calendar_DD.ico&quot;&gt;&gt;
@@ -13782,6 +13784,9 @@ This edition is a very rough ''work in progress'',  expect a lot of things to be
 * [ext[name|name.html]]</pre>
 </div>
 <div created="20210611195327653" icon="https://cdn.worldvectorlogo.com/logos/reddit-2.svg" modified="20210905161713912" tags="shortcut $:/CustomHomePage/ui-element" title="reddit" url="https://www.reddit.com/">
+<pre></pre>
+</div>
+<div created="20210906214150757" list="[[New task]]" modified="20210906214201105" title="task">
 <pre></pre>
 </div>
 <div created="20210611213656788" modified="20210905161745301" tags="folder shortcut $:/CustomHomePage/ui-element" tiddler="My tiddlywikis" title="TW">

@@ -478,7 +478,7 @@ exports.startup = function() {
 
 })();</pre>
 </div>
-<div created="20210905160614585" modified="20210906220609905" title="$:/config/AutoSave">
+<div created="20210905160614585" modified="20210906222902205" title="$:/config/AutoSave">
 <pre>no</pre>
 </div>
 <div created="20210611221838525" modified="20210612122918808" title="$:/config/DefaultSidebarTab">
@@ -10560,15 +10560,15 @@ transform: rotate(-10deg) translate(-10%, 19%);
 &lt;/$set&gt;
 &lt;/$set&gt;</pre>
 </div>
-<div created="20210826145758993" modified="20210905153042419" source="[[These colors are from the new tab in firefox]]" tags="$:/CustomHomePage/Config/Shortcut/Default $:/CustomHomePage/PalettePreview $:/CustomHomePage/Template/PalettePreview" title="$:/CustomHomePage/Config/Shortcut/Default/Palette" type="application/x-tiddler-dictionary">
-<pre>yellow: rgb(255, 113, 57)
+<div created="20210826145758993" modified="20210906222807871" source="[[These colors are from the new tab in firefox]]" tags="$:/CustomHomePage/Config/Shortcut/Default $:/CustomHomePage/PalettePreview PalettePreview" title="$:/CustomHomePage/Config/Shortcut/Default/Palette" type="application/x-tiddler-dictionary">
+<pre>orange: rgb(255, 113, 57)
 purple: rgb(161, 114, 255)
 green: rgb(42, 195, 162)
 red: rgb(255, 79, 95)
 blue: rgb(0, 144, 237)
-orange: rgb(255, 164, 55)</pre>
+yellow: rgb(255, 164, 55)</pre>
 </div>
-<div caption="Shortcuts" created="20210611181245074" list="TW calendar gmail facebook youtube reddit musicplayer" modified="20210905152304661" tags="$:/tags/SideBar CustomHomePageShortcuts" title="$:/CustomHomePage/Config/Shortcut/Order">
+<div caption="Shortcuts" created="20210611181245074" list="TW calendar gmail facebook youtube reddit musicplayer" modified="20210906222728830" tags="$:/tags/SideBar CustomHomePageShortcuts" title="$:/CustomHomePage/Config/Shortcut/Order">
 <pre>&lt;$reveal type=&quot;nomatch&quot; default={{{ [tag[shortcut]] }}} text=&quot;&quot;&gt;
 
 ; Drag &amp; Drop to modify order {{$:/CustomHomePage/Config/Shortcut/Order||$:/core/ui/Buttons/edit}}
@@ -10606,7 +10606,7 @@ description=&quot;!!{{!!text}}&quot;
 * [[Bulk delete tool|$:/CustomHomePage/Shortcuts/BulkDelete]]
 * Edit shortcuts-viewer {{$:/CustomHomePage/shortcuts-viewer||$:/core/ui/Buttons/edit}}
 
-Default colors (no icon set)
+[[Default colors|$:/CustomHomePage/Config/Shortcut/Default/Palette]] (no icon set)
 &lt;style&gt;
 .tc-edit-texteditor.palette{
 width:100%;
@@ -10730,7 +10730,7 @@ margin:5px;
 <div created="20210826164925397" modified="20210826205335722" tags="" title="$:/CustomHomePage/Copyright">
 <pre>CSS inspired from the new tab page in mozilla firefox, search engine icons from their respective company.</pre>
 </div>
-<div created="20210826220412111" modified="20210826221336687" tags="$:/tags/Stylesheet $:/CustomHomePage/PalettePreview $:/CustomHomePage/Template/PalettePreview" title="$:/CustomHomePage/PalettePreview/Style">
+<div created="20210826220412111" modified="20210906222548988" tags="$:/tags/Stylesheet $:/CustomHomePage/PalettePreview" title="$:/CustomHomePage/PalettePreview/Style">
 <pre>&lt;pre&gt;
 .color-preview:after{
 content:&quot;&quot;;
@@ -10993,7 +10993,7 @@ button.tc-unfold-banner {
 &lt;/$list&gt;
 </pre>
 </div>
-<div created="20210826150131260" modified="20210826221237221" tags="$:/tags/ViewTemplate" title="$:/CustomHomePage/Template/PalettePreview">
+<div created="20210826150131260" modified="20210906222557061" tags="$:/tags/ViewTemplate $:/CustomHomePage/PalettePreview" title="$:/CustomHomePage/Template/PalettePreview">
 <pre>&lt;$list filter=&quot;[all[current]tag[PalettePreview]]&quot;&gt;
 
 &lt;$reveal tag=&quot;div&quot; type=&quot;nomatch&quot; stateTitle=&lt;&lt;folded-state&gt;&gt; text=&quot;hide&quot; retain=&quot;yes&quot; animate=&quot;yes&quot;&gt;
@@ -11160,7 +11160,7 @@ padding:.5em;
 <div created="20210622220018467" modified="20210622220053215" tags="CustomHomePageShortcuts" title="$:/CustomHomePage/ui-buttons">
 <pre></pre>
 </div>
-<div created="20210622192906616" list="TW [[TW Tips]] $:/CustomHomePage/Break calendar gmail $:/CustomHomePage/Buttons/NewShortcut [[$:/CustomHomePage/Break 1]] facebook reddit youtube musicplayer" modified="20210826223806813" tags="" title="$:/CustomHomePage/ui-element">
+<div created="20210622192906616" list="$:/CustomHomePage/Break TW calendar gmail $:/CustomHomePage/Buttons/NewShortcut [[$:/CustomHomePage/Break 1]] facebook reddit youtube musicplayer" modified="20210906220726379" tags="" title="$:/CustomHomePage/ui-element">
 <pre></pre>
 </div>
 <div created="20210622191601721" modified="20210626213731515" tags="$:/tags/Stylesheet CustomHomePageShortcuts" title="$:/CustomHomePage/UI/Separation/Style" type="text/vnd.tiddlywiki">
@@ -11264,8 +11264,8 @@ $:/CustomHomePage/shortcuts-viewer</pre>
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
-<div created="20210905160621867" modified="20210906215801425" title="$:/language/ControlPanel/Saving/GitService/CommitMessage">
-<pre>WIP - added a small explanation for the tiddler [[Calendar icon]]</pre>
+<div created="20210905160621867" modified="20210906222850621" title="$:/language/ControlPanel/Saving/GitService/CommitMessage">
+<pre>WIP - fixed the palette preview {see [[$:/CustomHomePage/Config/Shortcut/Default/Palette]] )</pre>
 </div>
 <div created="20210611231023565" modified="20210827004539126" title="$:/palette">
 <pre>$:/palettes/Twilight</pre>
@@ -13176,8 +13176,8 @@ width:100%;
 <div created="20210611135437568" modified="20210611135441232" title="$:/SiteTitle">
 <pre>Custom Home Page</pre>
 </div>
-<div created="20210611143743724" modified="20210906214058899" title="$:/state/advancedsearch/currentTab">
-<pre>$:/core/ui/AdvancedSearch/Filter</pre>
+<div created="20210611143743724" modified="20210906222236334" title="$:/state/advancedsearch/currentTab">
+<pre>$:/core/ui/AdvancedSearch/System</pre>
 </div>
 <div created="20210807213155713" modified="20210905153041058" title="$:/state/commander/log-tiddler">
 <pre>$:/temp/commander/logs/tid-11</pre>
@@ -13206,14 +13206,14 @@ width:100%;
 <div created="20210611231116846" modified="20210827004541882" title="$:/state/ShowPaletteEditor">
 <pre>yes</pre>
 </div>
-<div created="20210611160323730" modified="20210906215849808" title="$:/state/sidebar">
+<div created="20210611160323730" modified="20210906222204835" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
 <div created="20210827183946006" modified="20210827183946006" title="$:/state/tab--103319216">
 <pre>$:/plugins/kookma/commander/field/uicomp/remove-fields</pre>
 </div>
-<div created="20210611143743725" modified="20210906214058899" title="$:/state/tab--1498284803">
-<pre>$:/core/ui/AdvancedSearch/Filter</pre>
+<div created="20210611143743725" modified="20210906222236334" title="$:/state/tab--1498284803">
+<pre>$:/core/ui/AdvancedSearch/System</pre>
 </div>
 <div created="20210611135633954" modified="20210826080917256" title="$:/state/tab--1963855381">
 <pre>$:/core/ui/ControlPanel/Palette</pre>
@@ -13245,7 +13245,7 @@ width:100%;
 <div created="20210612124334506" modified="20210905153613747" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/All</pre>
 </div>
-<div created="20210611141811499" modified="20210906220433142" title="$:/state/tab/sidebar--595412856">
+<div created="20210611141811499" modified="20210906222819500" title="$:/state/tab/sidebar--595412856">
 <pre>$:/SaveToGitHub/Settings</pre>
 </div>
 <div created="20210611135640424" modified="20210818203028398" title="$:/state/tabs/controlpanel/toolbars-1345989671">
@@ -13784,7 +13784,7 @@ This edition is a very rough ''work in progress'',  expect a lot of things to be
 
 * [ext[name|name.html]]</pre>
 </div>
-<div created="20210611195327653" icon="https://cdn.worldvectorlogo.com/logos/reddit-2.svg" modified="20210905161713912" tags="shortcut $:/CustomHomePage/ui-element" title="reddit" url="https://www.reddit.com/">
+<div created="20210611195327653" icon="https://cdn.worldvectorlogo.com/logos/reddit-2.svg" modified="20210906220844644" tags="shortcut $:/CustomHomePage/ui-element" title="reddit" url="https://www.reddit.com/">
 <pre></pre>
 </div>
 <div created="20210906214150757" list="[[New task]]" modified="20210906214201105" title="task">
